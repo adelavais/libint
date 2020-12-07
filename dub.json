@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Adela Vais"
+	],
+	"copyright": "Copyright © 2020, Adela Vais",
+	"description": "libint C header support",
+	"license": "Boost",
+	"name": "libint"
+}
