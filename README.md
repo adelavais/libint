@@ -1,3 +1,3 @@
-# libint C header support
+# Libintl C header support
 
-Dub for the libint.h functions support.
+Dub for the libintl.h functions support.
