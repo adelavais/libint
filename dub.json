@@ -3,7 +3,8 @@
 		"Adela Vais"
 	],
 	"copyright": "Copyright © 2020, Adela Vais",
-	"description": "libint C header support",
+	"description": "libintl C header support",
 	"license": "Boost",
-	"name": "libintl"
+	"name": "libintl",
+	"targetType": "library"
 }

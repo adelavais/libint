@@ -13,3 +13,4 @@ libint-test-*
 *.o
 *.obj
 *.lst
+*.a
