@@ -1,3 +1,5 @@
-# Libintl C header support
+# libintl
 
-Dub for the libintl.h functions support.
+The C99 libintl header is used for internationalisation. This dub provides an easy way for importing it in Dlang projects.
+
+libintl.h is part of Gnulib, and it is not a standard C header. It can be installed from [here](https://www.gnu.org/software/gettext/).
