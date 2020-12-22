@@ -1,0 +1,12 @@
+{
+	"authors": [
+		"Adela Vais"
+	],
+	"copyright": "Copyright © 2020, Adela Vais",
+	"description": "A minimal D application.",
+	"license": "Boost",
+	"name": "example",
+	"dependencies": {
+		"libintl": "~main"
+	}
+}

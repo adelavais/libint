@@ -1,0 +1,15 @@
+# Example application pot.
+# Copyright (C) 2020, Adela Vais.
+# This file is distributed under the same license as the Libintl package.
+#
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2020-12-21 22:09+0100\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: source/app.d:15
+msgid "Hello"
+msgstr ""
