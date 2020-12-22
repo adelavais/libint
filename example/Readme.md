@@ -3,7 +3,7 @@
 
 The example shows a usecase of the libintl dub.
 
-The repo contains a working example for a Romanian translation of the word ("Hello").
+The repo contains a working example for a Romanian translation of the word "Hello".
 
 Just run
 
@@ -20,7 +20,7 @@ Just run
 
 Prerequisites: gettext, msgfmt, msginit.
 
-Based on a program, you need to generate a Portable Object Template (with the extension .pot) file. These file are templates for Portable Object (with the extension .po) files, and contain a list of strings that are to be translated in your program.
+Based on a program, you need to generate a Portable Object Template (with the extension .pot) file. These files are templates for Portable Object (with the extension .po) files, and contain a list of strings that are to be translated in your program.
 
 Based on this template, generate a .po file, that needs to be modifed to contain the translations. From this, generate a Machine Object (with the extension .mo) file, that will be used by the application.
 
@@ -31,6 +31,8 @@ The steps explained previously:
 - Generate a .pot file with the command:
 
         xgettext --keyword=_ --language=C --add-comments --sort-output -o po/example.pot ./source/app.d
+
+Note: xgettext does not know about the D language, but you can use C just fine.
 
 - Customize it and generate a .po file (the example is for Romanian):
 
